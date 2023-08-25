@@ -15,6 +15,26 @@
 - // Output : ['Tohira' , 20]
 # what is Destructuring and Spread in JavaScript ?
 - синтаксис присваивания деструктуризации — это выражение Javascript, которое позволяет распаковывать свойства объекта в отдельные переменные.
+![Alt text](image.png)
+const test = {
+  prop: 42,
+  func: function () {
+    return this.prop;
+  },
+};
+
+console.log(test.func());
+// Expected output: 42
+
+const test = {
+  prop: 42,
+  func: function () {
+    return this.prop;
+  },
+};
+
+console.log(test.func());
+// Expected output: 42
 # what is keyword “ this ” in JavaScript ?
 - в методе объекта this относится к объекту.
 - само по себе это относится к глобальному объекту.
